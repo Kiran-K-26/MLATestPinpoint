@@ -5,7 +5,7 @@ import { Analytics, Auth } from 'aws-amplify';
 const App = () => {
 
   const myTokenReceivedHandler = (token) => {
-    // Do something with the received token
+    // Do something with the received tokenerere
     console.log("Device Token:-----------", deviceToken);
     setDeviceToken(token);
   };
