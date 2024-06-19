@@ -7,15 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint.",
-    "build-android": "react-native run-android --variant=release",
-    "build-ios": "react-native run-ios --configuration Release",
-    "build": "npm run build-android && npm run build-ios"
+    "lint": "eslint."
   },
   "dependencies": {
-    "@aws-amplify/react-native": "^1.1.1",
     "@react-native-community/netinfo": "^11.3.1",
-    "aws-amplify": "^3.4.3",
+    "aws-amplify": "^6.3.7",
     "install": "^0.13.0",
     "npm": "^10.4.0",
     "react": "18.2.0",

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { View, StyleSheet, Button } from 'react-native';
-import { Analytics, Auth } from 'aws-amplify';
 
 const App = () => {
 
@@ -31,7 +30,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <Button title="Press Me" onPress={() => { handleButtonClick() }} />
+      <Button title="Click Me" />
     </View>
   );
 };
